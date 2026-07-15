@@ -14,7 +14,7 @@ Manuelles Testen der Login-Funktion der Website saucedemo.com.
 | TC002 | Falsches Passwort eingeben | Fehlermeldung erscheint | Fehlermeldung erschien | Bestanden |
 | TC003 | Felder leer lassen | Warnmeldung erscheint | Warnmeldung erschien | Bestanden |
 | TC004 | Mit locked_out_user einloggen | Sperr-Fehler erscheint | Sperr-Fehler erschien | Bestanden |
-| TC005 | Groß-/Kleinschreibung testen (Standard_User) | Login sollte fehlschlagen | ... | ... |
+| TC005 | Groß-/Kleinschreibung testen (Standard_User) | Login sollte fehlschlagen |Login fehlschlagen | Bestanden |
 
 ## Screenshots
 
@@ -24,7 +24,14 @@ Manuelles Testen der Login-Funktion der Website saucedemo.com.
 ### TC002 - Fehlermeldung Erschien
 <img width="1852" height="964" alt="tc002-fehlermeldung-erscheint" src="https://github.com/user-attachments/assets/ee6c5582-4a6f-40cf-b4a7-d6d3b0937cb1" />
 
+### TC003 - Warnmeldung Erschien
+<img width="1892" height="1008" alt="tc003-warnmeldung-erscheint" src="https://github.com/user-attachments/assets/911e247c-6d2d-40f0-b35a-04409675e311" />
 
+### TC004 - Sperr-Fehler Erschien
+<img width="1905" height="979" alt="tc004-sperr-fehler-ershient" src="https://github.com/user-attachments/assets/c0f14acf-510a-4f38-a9e6-3a71fc7487c5" />
+
+### TC005 - Login Fehlschlagen
+<img width="1892" height="910" alt="tc005-login-feglschlagen" src="https://github.com/user-attachments/assets/e8585092-5766-4a41-aa31-27bdee54e665" />
 
 ## Gefundene Defekte
 Keine Defekte gefunden.
