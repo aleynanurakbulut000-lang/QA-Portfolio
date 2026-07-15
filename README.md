@@ -19,6 +19,7 @@ Manuelles Testen der Login-Funktion der Website saucedemo.com.
 ## Screenshots
 
 ### TC001 - Erfolgreicher Login
+<img width="1852" height="964" alt="image" src="https://github.com/user-attachments/assets/a1b08dfe-b7e5-42cd-bc7b-ab05e8cad6cd" />
 
 
 
