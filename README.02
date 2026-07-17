@@ -1,0 +1,35 @@
+# Sauce Demo - Cart Testing
+
+## Ziel
+Manuelles Testen der Warenkorb-Funktion der Website saucedemo.com.
+
+## Testszenarien
+
+| Test ID | Schritte | Erwartetes Ergebnis | Tatsächliches Ergebnis | Status |
+|---------|----------|----------------------|--------------------------|--------|
+| TC001 | Ein Produkt zum Warenkorb hinzufügen | Button ändert sich zu "Remove", Warenkorb-Zähler zeigt 1 | ... | ... |
+| TC002 | Mehrere Produkte hinzufügen | Zähler erhöht sich korrekt | ... | ... |
+| TC003 | Produkt aus dem Warenkorb entfernen | Produkt verschwindet, Zähler verringert sich | ... | ... |
+| TC004 | Checkout mit leerem Warenkorb | Checkout sollte blockiert werden | Checkout-Seite wird trotzdem geöffnet | Nicht bestanden |
+| TC005 | Seite nach Hinzufügen aktualisieren (Refresh) | Produkte bleiben im Warenkorb | ... | ... |
+
+## Screenshots
+TC001- Button Geändert
+
+
+## Gefundene Defekte
+
+### Defekt 1: Checkout mit leerem Warenkorb möglich
+**Schritte zur Reproduktion:**
+1. Als standard_user einloggen
+2. Ohne Produkte zum Warenkorb hinzuzufügen, direkt auf das Warenkorb-Symbol klicken
+3. Auf "Checkout" klicken
+
+**Erwartetes Ergebnis:** System sollte den Checkout blockieren oder eine Warnmeldung anzeigen.
+
+**Tatsächliches Ergebnis:** Benutzer wird zur Checkout-Seite weitergeleitet, obwohl der Warenkorb leer ist.
+
+**Schweregrad:** Niedrig-Mittel
+
+## Erkenntnisse
+(buraya bu projeden ne öğrendiğini yaz)
